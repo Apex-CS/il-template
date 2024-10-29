@@ -15,9 +15,11 @@ To install the template globally in your machine, open any terminal (powershell,
 - Clone this repo and change the directory to the newly cloned folder.
 - Execute `dotnet new install .` to install the template.
 
-After that, the new template will be available to be used in any IDE.
+After that, the new template will be available to be used in any IDE (like Visual Studio or JetBrains Rider).
 
 ![image](https://github.com/user-attachments/assets/6f9dbb85-45c9-4fa8-9467-e394d109b0a4)
+
+![image](https://github.com/user-attachments/assets/24f370a4-8759-4525-97f3-42ce66f9ae01)
 
 ## Settings
 
