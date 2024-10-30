@@ -4,7 +4,7 @@
 
 This is a template project aimed to create backends for Innovation Labs. It's using C# and ASP.NET Core targetting .NET 8 with the following packages included:
 
-- [FastEndpoints](https://fast-endpoints.com/): an opinionated framework to create endpoints using the REPR (Request-Endpoint-Response) Design Pattern. Please follow the documentation to configure endpoints. All endpoints in the template are in the folder Features (following the Vertical-Slice-Architecture).
+- [FastEndpoints](https://fast-endpoints.com/): an opinionated framework to create endpoints using the REPR (Request-Endpoint-Response) Design Pattern. Please follow the documentation to configure endpoints. All endpoints in the template are in the folder Features (following the Vertical-Slice-Architecture). Given that, we don't use MVC or Controllers anymore as they are slow in performance and it's a pattern that many other languages abandoned way long time ago.
 - Entity Framework Core 8 with SQL Server support. All models are added in the Models folder and the context file is located in the Data folder.
 - Microsoft Identity Web (to access Microsoft's Entra ID-generated JWTs).
 
